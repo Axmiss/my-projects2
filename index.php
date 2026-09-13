@@ -1,3 +1,11 @@
+<?php
+$hour = date('H');
+if ($hour >= 8 && $hour < 20) {
+    $theme = 'light';
+} else {
+    $theme = 'dark';
+}
+?>
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -10,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body class="<?= $theme ?>">
 
 
     <div class="container">
@@ -44,13 +52,13 @@
             </div>
         </div>
         <header>
-            <nav id="navigation">
+            <nav class="navigation <?= $theme ?>">
                 <div id="nav-container">
-                    <a href="index.php" target="parent" class="nav-btn">Главная</a>
-                    <a href="pages/about.php" target="parent" class="nav-btn">О нас</a>
-                    <a href="pages/products.php" target="parent" class="nav-btn">Каталог</a>
-                    <a href="pages/sale.php" target="parent" class="nav-btn">Акции</a>
-                    <a href="pages/registration.php" target="parent" class="nav-btn">Вход/Регистрация</a>
+                    <a href="index.php" target="parent" class="nav-btn <?= $theme ?>">Главная</a>
+                    <a href="pages/about.php" target="parent" class="nav-btn <?= $theme ?>">О нас</a>
+                    <a href="pages/products.php" target="parent" class="nav-btn <?= $theme ?>">Каталог</a>
+                    <a href="pages/sale.php" target="parent" class="nav-btn <?= $theme ?>">Акции</a>
+                    <a href="pages/registration.php" target="parent" class="nav-btn <?= $theme ?>">Вход/Регистрация</a>
                 </div>
             </nav>
         </header>
@@ -59,12 +67,12 @@
 
 
 
-        <div class="ecran-content">
+        <div class="ecran-content <?= $theme ?>" >
 
             <div class="ecran-verh">
 
-                <h2 class="ecran-title">Мир Ароматов</h2>
-                <p class="ecran-niz">У каждого мгновения есть свой запах.
+                <h2 class="ecran-title <?= $theme ?>">Мир Ароматов</h2>
+                <p class="ecran-niz <?= $theme ?>">У каждого мгновения есть свой запах.
                     Позвольте ему остаться с вами.</p>
 
 

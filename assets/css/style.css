@@ -7,7 +7,24 @@ body {
     letter-spacing: 0.3px;
     height: 100%;
 }
-
+body.light {
+    font-family: "Playfair Display SC", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFC6D0;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    height: 100%;
+}
+body.dark {
+    font-family: "Playfair Display SC", serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(159 61 81);
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    height: 100%;
+}
 p {
     margin-bottom: 15px;
 }
@@ -47,9 +64,45 @@ iframe {
 }
 
 /* Навигация (Белая подложка) */
-#navigation {
+.navigation {
     background: rgb(255, 218, 222);
     border: 2px solid #551515;
+    border-radius: 50px;
+    padding: 11px;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    box-sizing: border-box;
+}
+#navigation {
+     background: rgb(255, 218, 222);
+     border: 2px solid #551515;
+     border-radius: 50px;
+     padding: 11px;
+     width: 80%;
+     margin: 20px auto;
+     display: flex;
+     justify-content: center;
+     gap: 100px;
+     box-sizing: border-box;
+ }
+.navigation.light {
+    background: rgb(255, 218, 222);
+    border: 2px solid #551515;
+    border-radius: 50px;
+    padding: 11px;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    box-sizing: border-box;
+}
+.navigation.dark {
+    background: rgb(104 25 32);
+    border: 2px solid #ffc3c3;
     border-radius: 50px;
     padding: 11px;
     width: 80%;
@@ -73,8 +126,30 @@ iframe {
 }
 
 .nav-btn {
+     text-decoration: none;
+     color: rgb(59, 8, 8);
+     padding: 10px 25px;
+     border-radius: 25px;
+     font-size: 24px;
+     white-space: nowrap;
+     transition: 0.3s;
+     font-family: "Montserrat_Alternates";
+
+ }
+.nav-btn.light {
     text-decoration: none;
     color: rgb(59, 8, 8);
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 24px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-family: "Montserrat_Alternates";
+
+}
+.nav-btn.dark {
+    text-decoration: none;
+    color: rgb(255 214 214);
     padding: 10px 25px;
     border-radius: 25px;
     font-size: 24px;
@@ -244,6 +319,25 @@ button {
     justify-content: center;
 
 }
+.ecran-content.light {
+    background: #f9b3c0;
+    padding: 50px;
+    max-width: 100%;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+
+}
+.ecran-content.dark {
+    background: rgb(205 102 121 / 0.83);
+    padding: 50px;
+    max-width: 100%;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
 
 
 
@@ -267,8 +361,50 @@ button {
     letter-spacing: 4px;
     margin-bottom: 0;
 }
+.ecran-title.light {
+    font-size: 80px;
+    color: #691717;
+    font-weight: bold;
+    font-style: unset;
+    font-family: "Open_Sans";
+    border-bottom: none !important;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+}
+.ecran-title.dark {
+    font-size: 80px;
+    color: #ffb9b9;
+    font-weight: bold;
+    font-style: unset;
+    font-family: "Open_Sans";
+    border-bottom: none !important;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+}
 
 .ecran-niz {
+    font-size: 24px;
+    color: #6a2121;
+    font-family: "Open_Sans", sans-serif;
+    max-width: 450px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto 30%;
+
+}
+.ecran-niz.light {
+    font-size: 24px;
+    color: #6a2121;
+    font-family: "Open_Sans", sans-serif;
+    max-width: 450px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto 30%;
+
+}
+.ecran-niz.dark {
     font-size: 24px;
     color: #6a2121;
     font-family: "Open_Sans", sans-serif;
@@ -431,7 +567,7 @@ button {
 }
 
 .onas h3 {
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat";
     margin-top: 25px;
     margin-bottom: 10px;
     font-weight: bold;
@@ -452,7 +588,7 @@ button {
 
 
 .onas p {
-    font-family: "Montserrat" serif;
+    font-family: "Montserrat";
     margin-bottom: 15px;
     line-height: 1.5;
     color: #4A0E0E;
@@ -599,7 +735,7 @@ button {
 
 .title {
     font-size: 80px;
-    font-style: bold;
+    font-style: normal;
     color: #a64b4b;
     line-height: 1.2;
     margin-bottom: 20px;

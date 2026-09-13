@@ -13,11 +13,11 @@
 <body>
     <nav id="navigation">
         <div id="nav-container">
-            <a href="../index.html" target="parent" class="nav-btn">Главная</a>
-            <a href="about.html" target="parent" class="nav-btn">О нас</a>
-            <a href="products.html" target="parent" class="nav-btn">Каталог</a>
-            <a href="sale.html" target="parent" class="nav-btn">Акции</a>
-            <a href="registration.html" target="parent" class="nav-btn">Вход/Регистрация</a>
+            <a href="../index.php" target="parent" class="nav-btn">Главная</a>
+            <a href="about.php" target="parent" class="nav-btn">О нас</a>
+            <a href="products.php" target="parent" class="nav-btn">Каталог</a>
+            <a href="sale.php" target="parent" class="nav-btn">Акции</a>
+            <a href="registration.php" target="parent" class="nav-btn">Вход/Регистрация</a>
         </div>
     </nav>
 </body>

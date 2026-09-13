@@ -46,11 +46,11 @@
         <header>
             <nav id="navigation">
                 <div id="nav-container">
-                    <a href="index.html" target="parent" class="nav-btn">Главная</a>
-                    <a href="pages/about.html" target="parent" class="nav-btn">О нас</a>
-                    <a href="pages/products.html" target="parent" class="nav-btn">Каталог</a>
-                    <a href="pages/sale.html" target="parent" class="nav-btn">Акции</a>
-                    <a href="pages/registration.html" target="parent" class="nav-btn">Вход/Регистрация</a>
+                    <a href="index.php" target="parent" class="nav-btn">Главная</a>
+                    <a href="pages/about.php" target="parent" class="nav-btn">О нас</a>
+                    <a href="pages/products.php" target="parent" class="nav-btn">Каталог</a>
+                    <a href="pages/sale.php" target="parent" class="nav-btn">Акции</a>
+                    <a href="pages/registration.php" target="parent" class="nav-btn">Вход/Регистрация</a>
                 </div>
             </nav>
         </header>
@@ -71,9 +71,9 @@
 
                 <div class="ecran-buttons">
                     <div class="div-dtn-kat">
-                        <a href="pages/products.html" class="btn-kat">За покупками</a>
+                        <a href="pages/products.php" class="btn-kat">За покупками</a>
                     </div>
-                    <a href="pages/registration.html" class="btn-vhod">Войти</a>
+                    <a href="pages/registration.php" class="btn-vhod">Войти</a>
                 </div>
             </div>
             <div class="ecran-image">
@@ -160,7 +160,7 @@
                                 Создавай их.
                             </div>
                             <div class="div-dtn-kat div-dtn-kat-center">
-                                <a href="pages/products.html" class="btn-kat">За покупками</a>
+                                <a href="pages/products.php" class="btn-kat">За покупками</a>
                             </div>
 
                             <div class="footer-info">
@@ -202,14 +202,14 @@
             <div class="footer-column">
                 <h3>О нас</h3>
 
-                <a href="pages/about.html">Сколько лет на рынке</a>
-                <a href="pages/about.html">Откуда поставщики</a>
+                <a href="pages/about.php">Сколько лет на рынке</a>
+                <a href="pages/about.php">Откуда поставщики</a>
             </div>
 
             <div class="footer-column">
                 <h3>Помощь</h3>
 
-                <a href="pages/products.html">Наш каталог</a>
+                <a href="pages/products.php">Наш каталог</a>
             </div>
 
             <div class="footer-column">

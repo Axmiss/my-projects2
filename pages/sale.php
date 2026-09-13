@@ -46,11 +46,11 @@
         <header>
             <nav id="navigation">
                 <div id="nav-container">
-                    <a href="../index.html" target="parent" class="nav-btn">Главная</a>
-                    <a href="about.html" target="parent" class="nav-btn">О нас</a>
-                    <a href="products.html" target="parent" class="nav-btn">Каталог</a>
-                    <a href="sale.html" target="parent" class="nav-btn">Акции</a>
-                    <a href="registration.html" target="parent" class="nav-btn">Вход/Регистрация</a>
+                    <a href="../index.php" target="parent" class="nav-btn">Главная</a>
+                    <a href="about.php" target="parent" class="nav-btn">О нас</a>
+                    <a href="products.php" target="parent" class="nav-btn">Каталог</a>
+                    <a href="sale.php" target="parent" class="nav-btn">Акции</a>
+                    <a href="registration.php" target="parent" class="nav-btn">Вход/Регистрация</a>
                 </div>
             </nav>
         </header>
@@ -96,7 +96,7 @@
                                 Создавай их.
                             </div>
                             <div class="div-dtn-kat div-dtn-kat-center">
-                                <a href="products.html" class="btn-kat">За покупками</a>
+                                <a href="products.php" class="btn-kat">За покупками</a>
                             </div>
 
                             <div class="footer-info">
@@ -132,14 +132,14 @@
             <div class="footer-column">
                 <h3>О нас</h3>
 
-                <a href="about.html">Сколько лет на рынке</a>
-                <a href="about.html">Откуда поставщики</a>
+                <a href="about.php">Сколько лет на рынке</a>
+                <a href="about.php">Откуда поставщики</a>
             </div>
 
             <div class="footer-column">
                 <h3>Помощь</h3>
 
-                <a href="products.html">Наш каталог</a>
+                <a href="products.php">Наш каталог</a>
             </div>
 
             <div class="footer-column">

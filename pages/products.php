@@ -48,11 +48,11 @@
     <header>
         <nav id="navigation">
             <div id="nav-container">
-                <a href="../index.html" target="parent" class="nav-btn">Главная</a>
-                <a href="about.html" target="parent" class="nav-btn">О нас</a>
-                <a href="products.html" target="parent" class="nav-btn">Каталог</a>
-                <a href="sale.html" target="parent" class="nav-btn">Акции</a>
-                <a href="registration.html" target="parent" class="nav-btn">Вход/Регистрация</a>
+                <a href="../index.php" target="parent" class="nav-btn">Главная</a>
+                <a href="about.php" target="parent" class="nav-btn">О нас</a>
+                <a href="products.php" target="parent" class="nav-btn">Каталог</a>
+                <a href="sale.php" target="parent" class="nav-btn">Акции</a>
+                <a href="registration.php" target="parent" class="nav-btn">Вход/Регистрация</a>
             </div>
         </nav>
     </header>
@@ -93,7 +93,7 @@
                     <h3 class="product-name">First roses </h3>
                     <p class="product-price">5310 руб.</p>
                     <div class="buy-btnK">
-                        <a href="parfim.html"> <button>Подробнее</button></a>
+                        <a href="parfim.php"> <button>Подробнее</button></a>
                     </div>
 
                 </div>
@@ -114,7 +114,7 @@
                     <h3 class="product-name">First roses </h3>
                     <p class="product-price">5310 руб.</p>
                     <div class="buy-btnK">
-                        <a href="parfim.html"> <button>Подробнее</button></a>
+                        <a href="parfim.php"> <button>Подробнее</button></a>
                     </div>
 
                 </div>
@@ -135,7 +135,7 @@
                     <h3 class="product-name">First roses </h3>
                     <p class="product-price">5310 руб.</p>
                     <div class="buy-btnK">
-                        <a href="parfim.html"> <button>Подробнее</button></a>
+                        <a href="parfim.php"> <button>Подробнее</button></a>
                     </div>
 
                 </div>
@@ -156,29 +156,7 @@
                     <h3 class="product-name">First roses </h3>
                     <p class="product-price">5310 руб.</p>
                     <div class="buy-btnK">
-                        <a href="parfim.html"> <button>Подробнее</button></a>
-                    </div>
-
-                </div>
-            </div>
-
-
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="../assets/images/духиэконка.png" alt="духи">
-                </div>
-
-                <div class="product-info">
-                    <div class="product-meta">
-                        <span class="stars-Kat">★★★★★</span>
-                        <span class="volume">75мл</span>
-                        <img src="../assets/images/избранное.png" alt="Избранное" class="product-heat">
-
-                    </div>
-                    <h3 class="product-name">First roses </h3>
-                    <p class="product-price">5310 руб.</p>
-                    <div class="buy-btnK">
-                        <a href="parfim.html"> <button>Подробнее</button></a>
+                        <a href="parfim.php"> <button>Подробнее</button></a>
                     </div>
 
                 </div>
@@ -200,7 +178,7 @@
                     <h3 class="product-name">First roses </h3>
                     <p class="product-price">5310 руб.</p>
                     <div class="buy-btnK">
-                        <a href="parfim.html"> <button>Подробнее</button></a>
+                        <a href="parfim.php"> <button>Подробнее</button></a>
                     </div>
 
                 </div>
@@ -222,7 +200,7 @@
                     <h3 class="product-name">First roses </h3>
                     <p class="product-price">5310 руб.</p>
                     <div class="buy-btnK">
-                        <a href="parfim.html"> <button>Подробнее</button></a>
+                        <a href="parfim.php"> <button>Подробнее</button></a>
                     </div>
 
                 </div>
@@ -244,7 +222,29 @@
                     <h3 class="product-name">First roses </h3>
                     <p class="product-price">5310 руб.</p>
                     <div class="buy-btnK">
-                        <a href="parfim.html"> <button>Подробнее</button></a>
+                        <a href="parfim.php"> <button>Подробнее</button></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="../assets/images/духиэконка.png" alt="духи">
+                </div>
+
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="stars-Kat">★★★★★</span>
+                        <span class="volume">75мл</span>
+                        <img src="../assets/images/избранное.png" alt="Избранное" class="product-heat">
+
+                    </div>
+                    <h3 class="product-name">First roses </h3>
+                    <p class="product-price">5310 руб.</p>
+                    <div class="buy-btnK">
+                        <a href="parfim.php"> <button>Подробнее</button></a>
                     </div>
 
                 </div>
@@ -265,7 +265,7 @@
                     <h3 class="product-name">First roses </h3>
                     <p class="product-price">5310 руб.</p>
                     <div class="buy-btnK">
-                        <a href="parfim.html"> <button>Подробнее</button></a>
+                        <a href="parfim.php"> <button>Подробнее</button></a>
                     </div>
 
                 </div>
@@ -296,8 +296,8 @@
             <div class="footer-column">
                 <h3>О нас</h3>
 
-                <a href="about.html">Сколько лет на рынке</a>
-                <a href="about.html">Откуда поставщики</a>
+                <a href="about.php">Сколько лет на рынке</a>
+                <a href="about.php">Откуда поставщики</a>
             </div>
 
             <div class="footer-column">

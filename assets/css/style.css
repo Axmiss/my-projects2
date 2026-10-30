@@ -16,6 +16,10 @@ body.light {
     letter-spacing: 0.3px;
     height: 100%;
 }
+.resultat{
+    text-align: center;
+    color: #9f3d51;
+}
 body.dark {
     font-family: "Playfair Display SC", serif;
     margin: 0;

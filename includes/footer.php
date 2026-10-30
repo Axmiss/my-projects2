@@ -20,6 +20,21 @@
             <a href="#">Instagram</a>
         </div>
     </div>
+
+    <?php
+    $date = new DateTimeImmutable('today');
+
+    $nextnewyear = new DateTimeImmutable(
+            ($date->format('Y') + 1) . '-01-01'
+    );
+
+    $daysleft = $date->diff($nextnewyear)->days;
+    ?>
+
+    <div class="footer-date">
+        <p>Сейчас: <?= $date->format('d.m.Y') ?></p>
+        <p>До Нового года: <?= $daysleft ?> дней</p>
+    </div>
 </footer>
 
 </div>

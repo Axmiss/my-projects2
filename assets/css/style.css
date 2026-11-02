@@ -16,6 +16,12 @@ body.light {
     letter-spacing: 0.3px;
     height: 100%;
 }
+.odd-word {
+    color: #b80d15; }
+
+.even-word {
+    color: #a86c81; }
+
 .resultat{
     text-align: center;
     color: #9f3d51;
